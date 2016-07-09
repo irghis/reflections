@@ -1,0 +1,5 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+Specially in collaborative projects, so there is one place to store alll the changes we make individually. 
+It is also good to keep a copy of any other work uploaded to be able to retrieve it in case the computer
+crashes.
