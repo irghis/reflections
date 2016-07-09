@@ -10,3 +10,29 @@ How is the staging area different from the working directory and the repository?
 It is a transition stage in a file to be commited. With this tool, you can add more than one file before to commit, and wrap up all related files to a change together.
 
 That is important to avoid making more than 1 commit for the same logical change in different files.
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Before committing, you can check with "git status" which files are going to be committed and see if something is missing. Once you are sure everything is there you just execute "git commit" to make it.
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+When you want to make two similar versions with different features, such as changing the language or making an "easy" mode of a game.
+
+Making the branches lets you try different behaviours while keeping track of the main version in "master". You can also rejoin the fork afterwards if you want, so it is good for testing and creating new features while keeping track of the last stable version.
+
+
+How do the diagrams help you visualize the branch structure?
+
+With the diagrams is easy to see the forks or branches where some new features where tested, and to understand the status of each of these branches.
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+A new branch is created, containing the new lines added and deleting the ones that are removed from both files. 
+
+We represent them on the diagram to see the relations between the different versions and how they are combined for the master branch.
+
+
