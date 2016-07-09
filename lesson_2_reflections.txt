@@ -1,0 +1,12 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+"git" file is copied as a hidden file in the repository folder so we can start keep tracking the different versions of the document. 
+
+You need to do it if you want to keep control versions using git.
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+It is a transition stage in a file to be commited. With this tool, you can add more than one file before to commit, and wrap up all related files to a change together.
+
+That is important to avoid making more than 1 commit for the same logical change in different files.
