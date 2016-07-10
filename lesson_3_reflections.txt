@@ -29,3 +29,8 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 Every team member would work on their own code and send through e-mails back and forth all the different versions or new functions included. That would be much harder than having a repository online like github, where we can share and compare the different versions and still know and differentiate what the other does.
 
 
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+When you want to experiment with new codes, or try something that may crash the original version. 
+
+The benefits of making changes directly on the master are that you work faster and in one direction, while using branches allows you to work a little bit in some experimental code and maybe get back later on, as the branch should be named in a logical manner.
