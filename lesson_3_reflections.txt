@@ -10,3 +10,22 @@ Why might you want to always pull changes manually rather than having Git automa
 Because if I am working in a collaborative project, there may be some "branches" that I may not want to update, or I might want to test some functions before people start working on top of that.
 
 
+Describe the differences between forks, clones and branches. When would you use one instead of another?
+
+A clone is a local copy of a repository that you can have on your computer and upload to your github profile. 
+
+A fork is a clone of a repository in github servers, so everyone can pull and push the new updates to a common server, where every contribution is identified.
+
+A branch is made when you want to to try new features or different versions of the similar program, like the 'easy-mode' of a game, or colors.
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+In case you want to work offline you have the possibility to avoid "pull" or "push" code and keep working on your branches without worrying about the status of the remote repository.
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Every team member would work on their own code and send through e-mails back and forth all the different versions or new functions included. That would be much harder than having a repository online like github, where we can share and compare the different versions and still know and differentiate what the other does.
+
+
